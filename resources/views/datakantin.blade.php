@@ -7,7 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
   </head>
   <body>
-    <h1 class="text-center mb-4">Data Kantin</h1>
+    <h1 class="text-center mb-4">Data Siswa</h1>
 
     <div class="container">
         <a href="/tambahdatakantin" class="btn btn-success">Tambah Data</a>
@@ -24,6 +24,7 @@
                     <th scope="col">Nama</th>
                     <th scope="col">Foto</th>
                     <th scope="col">Jenis Kelamin</th>
+                    <th scope="col">Jurusan</th>
                     <th scope="col">NoTelepon</th>
                     <th scope="col">Dibuat</th>
                     <th scope="col">Aksi</th>
@@ -41,6 +42,7 @@
                       <img src="{{asset('fotokantin/'.$row->foto)}}" alt="" style="width: 40px;">
                     </td>
                     <td>{{$row->jeniskelamin}}</td>
+                    <td>{{$row->jurusan}}</td>
                     <td>0{{$row->notelpon}}</td>
                     <td>{{  $row->created_at}}</td>
                     <td>
