@@ -18,6 +18,8 @@ return new class extends Migration
             $table->string('nama');
             $table->enum('jeniskelamin',['cowo','cewe']);
             $table->bigInteger('notelpon');
+            $table->string('mapel');
+            $table->string('alamat');
             $table->string('foto');
             $table->timestamps();
         });

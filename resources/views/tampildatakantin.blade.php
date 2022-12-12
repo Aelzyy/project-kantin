@@ -3,11 +3,11 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Project Canteen</title>
+    <title>STAR COMUNICATE BOOK</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
   </head>
   <body>
-    <h1 class="text-center mb-4">Edit Data Kantin</h1>
+    <h1 class="text-center mb-4">Edit Data Guru</h1>
 
     <div class="container">
         <div class="row justify-content-center">
@@ -31,6 +31,14 @@
                   <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label">No Telpon</label>
                     <input type="number" name="notelpon" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" value="{{ $data->notelpon }}">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Mata-pelajaran</label>
+                    <input type="text" name="mapel" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" value="{{ $data->mapel }}">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Alamat</label>
+                    <input type="text" name="alamat" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" value="{{ $data->alamat }}">
                   </div>
                   
                   <button type="submit" class="btn btn-primary">Submit</button>
