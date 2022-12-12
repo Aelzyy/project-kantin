@@ -32,6 +32,7 @@
                     <label for="exampleInputEmail1" class="form-label">No Telpon</label>
                     <input type="number" name="notelpon" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                   </div>
+<<<<<<< HEAD
                   <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label">Mata-pelajaran</label>
                     <input type="text" name="mapel" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -41,9 +42,15 @@
                     <input type="text" name="alamat" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                   </div>
 
+=======
+>>>>>>> 73be72b23d8eaaa67fe5243b42b1eca078cf5e9e
                   <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label">Masukan Foto</label>
                     <input type="file" name="foto" class="form-control">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Jurusan</label>
+                    <input type="text" name="jurusan" class="form-control">
                   </div>
                   <button type="submit" class="btn btn-primary">Submit</button>
                 </form>

@@ -33,12 +33,17 @@
                     <input type="number" name="notelpon" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" value="{{ $data->notelpon }}">
                   </div>
                   <div class="mb-3">
+<<<<<<< HEAD
                     <label for="exampleInputEmail1" class="form-label">Mata-pelajaran</label>
                     <input type="text" name="mapel" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" value="{{ $data->mapel }}">
                   </div>
                   <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label">Alamat</label>
                     <input type="text" name="alamat" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" value="{{ $data->alamat }}">
+=======
+                    <label for="exampleInputEmail1" class="form-label">Jurusan</label>
+                    <input type="text" name="jurusan" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" value="{{ $data->jurusan }}">
+>>>>>>> 73be72b23d8eaaa67fe5243b42b1eca078cf5e9e
                   </div>
                   
                   <button type="submit" class="btn btn-primary">Submit</button>

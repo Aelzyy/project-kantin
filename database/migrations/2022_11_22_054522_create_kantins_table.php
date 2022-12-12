@@ -21,6 +21,7 @@ return new class extends Migration
             $table->string('mapel');
             $table->string('alamat');
             $table->string('foto');
+            $table->string('jurusan');
             $table->timestamps();
         });
     }
